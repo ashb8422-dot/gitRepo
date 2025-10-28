@@ -1,0 +1,184 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+
+}
+
+.navbar {
+   height: 90px;
+   width: auto;
+   background-color: black;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   color: white;
+
+}
+
+.logo img {
+   height: 80px;
+   width: 100px;
+
+
+}
+
+.nav-links ul {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+   margin: 40px;
+
+}
+
+.nav-links ul li {
+   display: flex;
+   align-items: center;
+   gap: 40px;
+
+}
+
+.nav-links ul li {
+   list-style: none;
+
+
+}
+
+.about-section {
+   height: 600px;
+   width: 1000px;
+   margin: auto;
+   text-align: center;
+   display: flex;
+
+}
+
+.heading {
+   font-size: 60px;
+   font-weight: 700;
+   text-align: center;
+   color: red;
+}
+
+.about-boxes {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 30px;
+
+
+}
+
+.about-box {
+   height: 40px;
+   width: 300px;
+   border: 2px solid black;
+}
+
+.About Us {
+   font-size: 30px;
+   font-weight: 600;
+   text-align: center;
+   color: blue;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Poppins", sans-serif;
+   background: #f9f9f9;
+}
+
+/* Footer Section */
+.footer {
+   background-color: black color;
+   padding: 60px 0 20px;
+}
+
+.footer-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   gap: 30px;
+   max-width: 1200px;
+   margin: auto;
+   padding: 0 20px;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact,
+.footer-social {
+   flex: 1 1 220px;
+}
+
+.footer h2,
+.footer h3 {
+   color: maroon;
+   margin-bottom: 15px;
+}
+
+.footer p {
+   color: #d3d3d3;
+   line-height: 1.6;
+}
+
+.footer-links ul {
+   list-style: none;
+}
+
+.footer-links li {
+   margin-bottom: 10px;
+}
+
+.footer-links a {
+   color: #d3d3d3;
+   text-decoration: none;
+   transition: color 0.3s;
+}
+
+.footer-links a:hover {
+   color: #00b4d8;
+}
+
+.footer-contact p i {
+   margin-right: 10px;
+   color: blue;
+   text-align: end;
+}
+
+.social-icons a {
+   display: inline-block;
+   margin-right: 12px;
+   color: #ffffff;
+   font-size: 20px;
+   transition: color 0.3s;
+}
+
+.social-icons a:hover {
+   color: blue;
+}
+
+.footer-bottom {
+   text-align: center;
+   padding-top: 20px;
+   border-top: 1px solid #233554;
+   margin-top: 30px;
+}
+
+.footer-bottom p {
+   color: white;
+   font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+   .footer-container {
+      flex-direction: column;
+      text-align: center;
+   }
+}
